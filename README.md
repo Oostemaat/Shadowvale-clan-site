@@ -76,3 +76,17 @@ shadowvale-clan-site/
    ├─ main.js
    └─ styles.css
 ```
+
+
+## Open the site
+
+You can open `index.html` directly in your browser for the static demo.
+
+For development with Vite:
+
+```bash
+npm install
+npm run dev
+```
+
+Demo staff login: `staff` / `shadowvale`

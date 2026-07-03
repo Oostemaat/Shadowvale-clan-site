@@ -1,5 +1,3 @@
-import './styles.css';
-
 const demoEvents = [
   {
     id: 1,
