@@ -156,4 +156,70 @@
 .animate-float {
   animation: float-soft 6s ease-in-out infinite;
 }
+@keyframes fog-drift {
+  0% {
+    transform: translateX(-2%) scale(1.04);
+  }
+  50% {
+    transform: translateX(2%) scale(1.08);
+  }
+  100% {
+    transform: translateX(-2%) scale(1.04);
+  }
+}
+
+@keyframes ember-drift {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-14px) scale(1.03);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes float-soft {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.04);
+  }
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+}
+
+.animate-fog {
+  animation: fog-drift 18s ease-in-out infinite;
+}
+
+.animate-embers {
+  animation: ember-drift 9s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float-soft 6s ease-in-out infinite;
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 5s ease-in-out infinite;
+}
 }
