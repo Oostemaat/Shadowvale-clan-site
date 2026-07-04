@@ -51,13 +51,13 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative hidden justify-center lg:flex">
-            <div className="absolute h-[34rem] w-[34rem] rounded-full bg-red-700/25 blur-3xl" />
-            <div className="relative flex h-[28rem] w-[28rem] items-center justify-center rounded-full border border-red-900/60 bg-black/45 shadow-[0_0_110px_rgba(185,28,28,0.55)] backdrop-blur animate-float">
-              <div className="absolute inset-8 bg-[url('/hero/crest.png')] bg-contain bg-center bg-no-repeat" />
-              <Shield className="h-48 w-48 text-red-500/70 drop-shadow-[0_0_35px_rgba(239,68,68,0.9)]" />
-            </div>
-          </div>
+<div className="relative hidden justify-center lg:flex">
+  <div className="absolute h-[34rem] w-[34rem] rounded-full bg-red-700/25 blur-3xl" />
+
+  <div className="relative flex h-[28rem] w-[28rem] items-center justify-center rounded-full border border-red-900/60 bg-black/45 shadow-[0_0_110px_rgba(185,28,28,0.55)] backdrop-blur animate-float">
+    <Shield className="h-56 w-56 text-red-500 drop-shadow-[0_0_35px_rgba(239,68,68,0.9)]" />
+  </div>
+</div>
         </div>
 
         <div className="relative mx-auto -mt-28 max-w-5xl px-6 pb-16">
