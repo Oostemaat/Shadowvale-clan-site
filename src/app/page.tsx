@@ -1,22 +1,11 @@
 import Hero from "@/components/home/Hero";
+import AboutShadowvale from "@/components/home/AboutShadowvale";
 import Link from "next/link";
 
 const events = [
-  {
-    time: "Tomorrow at 7:00PM",
-    title: "Zulrah Mass",
-    host: "Shadowvale",
-  },
-  {
-    time: "Saturday at 8:00PM",
-    title: "ToB Learner Raid",
-    host: "Parkway Dry",
-  },
-  {
-    time: "Sunday at 6:00PM",
-    title: "CoX Teaching",
-    host: "Shadowvale",
-  },
+  { time: "Tomorrow at 7:00PM", title: "Zulrah Mass", host: "Shadowvale" },
+  { time: "Saturday at 8:00PM", title: "ToB Learner Raid", host: "Parkway Dry" },
+  { time: "Sunday at 6:00PM", title: "CoX Teaching", host: "Shadowvale" },
 ];
 
 export default function Home() {
@@ -68,6 +57,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <AboutShadowvale />
     </>
   );
 }
